@@ -22,7 +22,7 @@ module.exports = {
 
     const userExists = await Dev.findOne({ username });
 
-    if (userExists) return res.json(userExists);
+    if (userExists) return response.json(userExists);
 
     const fetch = await axios.get(`https://api.github.com/users/${username}`);
 
