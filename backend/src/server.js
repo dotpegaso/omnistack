@@ -11,7 +11,7 @@ dotenv.config();
 mongoose.connect(
   `mongodb+srv://${process.env.MONGO_USER}:${
     process.env.MONGO_PASS
-  }@cluster0-dyc8s.mongodb.net/omnistack?retryWrites=true&w=majority`,
+  }@cluster0-kpmzu.mongodb.net/omnistack?retryWrites=true&w=majority`,
   { useNewUrlParser: true }
 );
 
